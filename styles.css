@@ -1,0 +1,54 @@
+body {
+    background: linear-gradient(to bottom, white, gray)
+}
+th, td {
+    text-align: center;
+    margin: 25px;
+    border: 1px solid black;
+    border-radius: 4px ;
+}
+td {
+    padding: 15px;
+}
+table {
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.info {
+    margin: 5rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header {
+    text-align:center;
+}
+.contact {
+    text-align: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.contact h3 {
+    margin: 1rem 2rem;
+}
+footer {
+    text-align: center;
+    margin-bottom: 10rem;
+}
+.imagini {
+    display: flex;
+    flex-wrap: wrap;
+}
+.imagini img {
+    border-radius: 4px;
+    width: 350px;
+    height: 250px;
+    margin: 20px;
+}
+
+.info, .contact, footer {
+    padding-bottom: 2rem;
+    border-bottom: 3px solid black;
+    width: 80%; 
+    margin: 0 auto;
+}
